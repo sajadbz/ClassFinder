@@ -10,7 +10,8 @@ https://www.nuget.org/packages/Bz.ClassFinder/
 ## Example :
 ### Create an instance with class finder helper :
 ```csharp
-public static readonly IReadOnlyList<BzClassInfo> Permissions = Bz.ClassFinder.Helper.GetClassAndMethods(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? "","App.WebUI.dll")).ToList();
+var location = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? "","App.WebUI.dll");
+IReadOnlyList<BzClassInfo> Permissions = Bz.ClassFinder.Helper.GetClassAndMethods(location).ToList();
 ```
 
 ### How to use attribute:
