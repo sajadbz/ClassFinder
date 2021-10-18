@@ -4,7 +4,9 @@ Use `Bz.Helper.GetClassAndMethods<T>()` method and custom your class or methods 
 
 Create static read-only object for get list of class and method that has `[BzDescription("{your custom title}")]` Attribute and use this object in your project 
 >I use this to get all action in my controller for list of permission that want to check in user role permission.
-
+>
+Find it on :
+https://www.nuget.org/packages/Bz.ClassFinder/
 ## Example :
 ### Create an instance with class finder helper :
 ```csharp
