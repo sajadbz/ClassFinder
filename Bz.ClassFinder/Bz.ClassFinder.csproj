@@ -3,16 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Sajad Bagherzadeh</Authors>
-    <Company>SBZ</Company>
+    <Company>sajadbz</Company>
     <Product>ClassFinder</Product>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <FileVersion>1.0.2.0</FileVersion>
     <Version>1.0.3</Version>
     <PackageProjectUrl>https://www.nuget.org/packages/Bz.ClassFinder/</PackageProjectUrl>
     <Copyright>Sajad Bagherzadeh</Copyright>
     <PackageIcon>sbz-icon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>Gitub</RepositoryType>
+    <RepositoryUrl>https://github.com/sajadbz/ClassFinder</RepositoryUrl>
+    <Description>Use Bz.Helper.GetClassAndMethods&lt;T&gt;() method and custom your class or methods with [BzDescriptionAttribute] to get list of all class with own methods that you select with this attribute</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="C:\Users\sbagh\Desktop\Miiran\task\sbz-icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
