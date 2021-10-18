@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Sajad Bagherzadeh</Authors>
+    <Company>SBZ</Company>
+    <Product>ClassFinder</Product>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.3</Version>
+    <PackageProjectUrl>https://www.nuget.org/packages/Bz.ClassFinder/</PackageProjectUrl>
+    <Copyright>Sajad Bagherzadeh</Copyright>
+    <PackageIcon>sbz-icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\sbagh\Desktop\Miiran\task\sbz-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
