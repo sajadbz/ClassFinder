@@ -8,6 +8,9 @@ using Bz.ClassFinder.Models;
 
 namespace Bz.ClassFinder
 {
+    /// <summary>
+    /// Helper class
+    /// </summary>
     public class Helper
     {
         /// <summary>
